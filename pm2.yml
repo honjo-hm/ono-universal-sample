@@ -1,0 +1,20 @@
+# 設定項目はこの辺見る
+# http://pm2.keymetrics.io/docs/usage/application-declaration/#attributes-available
+apps:
+  -
+    name: "test-app"
+    script: "./app/built/app.js"
+
+    # クラスタモード
+    instances: 0
+    exec_mode: cluster
+
+    # 変更監視したいファイル
+    watch: ["./app/built/app.js"]
+
+    # ログ設定
+    out_file: "/var/log/pm2/ap.log"
+    error_file: "/var/log/pm2/error.log"
+    merge_logs: true
+    combine_logs: true
+    pid_file: "/var/run/pm2.pid"
