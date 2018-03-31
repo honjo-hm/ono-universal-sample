@@ -18,7 +18,9 @@
     "ts:check": "tsc --noEmit"
   },
   "dependencies": {
+    "@types/config": "0.0.34",
     "classnames": "^2.2.5",
+    "config": "^1.30.0",
     "moment": "^2.21.0",
     "mysql": "^2.15.0",
     "next": "^5.1.0",
@@ -30,6 +32,7 @@
     "redux-persist": "^4.9.1",
     "redux-thunk": "^2.2.0",
     "reflect-metadata": "^0.1.12",
+    "rrr-lazy": "^2.0.0",
     "typeorm": "^0.1.19"
   },
   "devDependencies": {
