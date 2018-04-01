@@ -1,7 +1,7 @@
 /**
- * SearchForm
+ * SearchFormWidget
  *
- * 検索用TextBox
+ * 検索フォーム
  *
  * @package Components
  * @since 2018/XX/XX
