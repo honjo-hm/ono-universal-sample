@@ -6,8 +6,12 @@
  * @package Components
  * @since 2018/XX/XX
  */
+import Link from "next/link"
+
 const SearchSubmitButtonParts = () => (
-  <input type="submit" id="srchbtn" value="検索" />
+  <Link href="#" onClick="window.confirm('ほげほげ')">
+    Click me
+  </Link>
 )
 
 export default SearchSubmitButtonParts;
